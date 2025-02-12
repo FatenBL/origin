@@ -1,0 +1,78 @@
+.form-Ajout {
+  background-color: rgb(248, 248, 245);
+  width: 430px;
+  border-radius: 24px;
+  box-shadow: 0 0 17px 10px rgb(241, 241, 239);
+  padding: 25px; /* Ajout d'un padding pour l'espacement intérieur */
+
+  margin-top: 120px;
+  margin-left: 650px;
+  padding-left: 38px;
+}
+
+input {
+  border: none;
+  border-radius: 12px;
+  width: 55vh; /* Prend toute la largeur du conteneur */
+  height: 42px;
+  padding-left: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px; /* Marge sous chaque input */
+}
+
+.btnA {
+  width: 55%; /* Largeur du bouton ajustée */
+  margin: 0 auto; /* Centrer le bouton */
+  display: block;
+  padding: 10px;
+  background-color: #1b7bc9;
+  color: #fff;
+  border-radius: 12px;
+  letter-spacing: 1px;
+}
+
+.form-Ajout label {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; /* Un poids de police plus prononcé pour le rendre plus visible */
+  color: #050505; /* Une couleur plus marquée pour attirer l'attention */
+  font-size: 16px; /* Taille de police lisible */
+  text-transform: capitalize; /* Première lettre de chaque mot en majuscule pour un effet soigné */
+  letter-spacing: 0.5px; /* Un peu de largeur entre les lettres pour plus de clarté */
+  margin-bottom: 8px; /* Un peu d'espace sous le label */
+  display: inline-block; /* Pour que le label soit sur la même ligne que le champ de saisie */
+  margin-left: 10px; /* Un léger décalage pour aligner le texte */
+}
+
+.form-Ajout h2 {
+  margin-bottom: 20px;
+  text-align: center; /* Centrer le titre */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #1b7bc9;
+  letter-spacing: 1px;
+}
+input:focus {
+  outline: none; /* Enlève l'effet de focus par défaut */
+  border: 2px solid transparent; /* Enlève la bordure de l'input quand il est focus */
+  box-shadow: 0 0 8px 5px #cee4f8;
+}
+.message {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.success {
+  color: green;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  color: red;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+}

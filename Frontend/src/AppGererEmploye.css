@@ -1,0 +1,12 @@
+.gerer-employe-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw; /* Toute la largeur */
+  min-height: 100vh; /* Au minimum toute la hauteur de l'écran */
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  background-color: #eeeeee; /* Gris clair (grey lighten-3) */
+  padding: 50px 0; /* Ajoute un padding pour éviter que le contenu soit collé aux bords */
+}
